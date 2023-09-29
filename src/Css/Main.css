@@ -1,0 +1,15 @@
+/* Dashboard.css */
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.con {
+  flex: 2;
+  margin-left: 17rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  @media (max-width: 540px) {
+    margin-left: 14rem;
+  }
+}

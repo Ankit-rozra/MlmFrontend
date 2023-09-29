@@ -1,0 +1,68 @@
+.contact-form {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 20rem;
+  width: 19rem;
+  @media (max-width: 510px) {
+    max-width: 12rem;
+  }
+}
+
+.contact-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.7rem;
+  font-size: 1.5rem;
+}
+
+.contact-form .your-information {
+  margin-top: 20px;
+}
+.field {
+  @media (max-width: 510px) {
+    max-width: 150px;
+  }
+}
+
+.contactMid {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.companyContact {
+  margin: 1rem auto;
+  background: linear-gradient(to right, #a9edc2, #c4f4d6, #a4d8f1, #bbdcec);
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  padding-top: 1rem;
+  font-weight: 500;
+  border: #000 solid 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  @media (max-width: 670px) {
+    font-size: 1.1rem;
+  }
+  @media (max-width: 570px) {
+    max-width: 10rem;
+    padding: 0.5rem;
+  }
+  @media (max-width: 549px) {
+    font-size: 1rem;
+  }
+}

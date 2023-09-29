@@ -1,0 +1,21 @@
+.about {
+  text-align: center;
+}
+
+.companyName {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.companyDetails {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.upperAbout {
+  min-height: 80vh;
+}
+.footer {
+  font-size: 1.2rem;
+  font-weight: 700;
+}

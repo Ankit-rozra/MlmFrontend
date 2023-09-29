@@ -1,0 +1,82 @@
+.Log-form {
+  text-align: center;
+}
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.7rem;
+  font-size: 1.5rem;
+}
+input {
+  width: 40rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 0.7rem;
+  @media (max-width: 980px) {
+    width: 24rem;
+  }
+  @media (max-width: 720px) {
+    width: 13rem;
+  }
+  @media (max-width: 520px) {
+    width: 10rem;
+  }
+}
+select {
+  width: 41.3rem;
+  margin-bottom: 0.7rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  @media (max-width: 980px) {
+    width: 25.3rem;
+  }
+  @media (max-width: 720px) {
+    width: 14.3rem;
+  }
+  @media (max-width: 520px) {
+    width: 11.3rem;
+  }
+}
+.aForgot {
+  text-decoration: none;
+}
+.forgot {
+  color: #000;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+.topups {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 40rem;
+  padding: 10px;
+  margin: auto;
+  @media (max-width: 980px) {
+    width: 25.3rem;
+  }
+  @media (max-width: 720px) {
+    width: 14.3rem;
+  }
+  @media (max-width: 556px) {
+    width: 11.3rem;
+  }
+}
+.topup {
+  background-color: blanchedalmond;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.topupBorder {
+  border: 3px solid black;
+}
+.errorMessage {
+  color: rgb(219, 26, 26);
+  font-size: 1.3rem;
+  padding-bottom: 2rem;
+}
